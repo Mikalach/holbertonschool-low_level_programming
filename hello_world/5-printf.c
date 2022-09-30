@@ -1,4 +1,5 @@
-#include <stdio.h>
+#!/bin/bash
+gcc -S -masm=intel $CFILE#include <stdio.h>
 
 /**
 *main - Entry point
