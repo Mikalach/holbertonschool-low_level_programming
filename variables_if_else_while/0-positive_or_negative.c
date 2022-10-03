@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - Check if a number.
+ * main - check if a number.
  * @void: Null value
  *
  * Return: Zero value
@@ -11,7 +11,7 @@
 
 int main(void)
 {
-  int n;
+int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
