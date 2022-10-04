@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
  /**
- * _abs - function in C returns the absolute value of an integer.
+ * _abs - computes the absolute value of an integrer
  *
  * @n: the given integer
  *
