@@ -1,6 +1,6 @@
 #include "main.h"
  /**
- * _abs - find and return the absolute value of a given integer
+ * _abs - function in C returns the absolute value of an integer.
  *
  * @n: the given integer
  *
