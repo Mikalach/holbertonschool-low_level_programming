@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
  /**
- * _abs - computes the absolute value of an integrer
+ * _abs - this should give the absolute value of a given integer
  *
  * @n: the given integer
  *
