@@ -15,5 +15,5 @@ void print_to_98(int n)
 	else
 		for (n = n; n > 98; n--)
 			printf("%d, ", n);
-	return("98");
+	printf("98\n");
 }
