@@ -5,15 +5,14 @@
  */
 void print_numbers(void)
 {
+
 	int n;
+		for (n = 0; n < 10; n++)
+		{
 
-	n = 0;
+			_putchar('0' + n);
 
-	if (n < 9)
-	{
-		_putchar(n + '0');
-		n++;
-	}
-	_putchar('\n');
-	return (0);
+		}
+		_putchar('\n');
+
 }
