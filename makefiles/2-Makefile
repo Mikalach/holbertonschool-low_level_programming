@@ -4,7 +4,3 @@ OBJ=main.o school.o
 NAME=school
 all : $(SRC)
 	$(CC) $(SRC) -o NAME
-main.o : main.c
-	$(CC) -c wall main.c
-school.o : school.c
-	$(CC) -c wall school.c
