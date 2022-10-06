@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * main - print 0-100 with multiple of 3 as Fizz 5 as Buzz and both as FizzBuzz
  * Return: 0 = success
