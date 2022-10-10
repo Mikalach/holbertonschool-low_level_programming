@@ -2,6 +2,8 @@
 /**
  *print_rev - prints a string in reverse from the orignal
  *@s: String to print in reverse
+ * _strlen - return the lenght of a given string
+ * Return: lenght of the given string
  */
 
 int _strlen(char *s)
