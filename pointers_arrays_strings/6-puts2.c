@@ -14,7 +14,7 @@ void puts2(char *str)
 	{
 		if (i == '\0')
 		{
-			break
+			break;
 		}
 		else if (i == 0)
 		{
