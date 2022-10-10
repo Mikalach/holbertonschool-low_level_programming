@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * puts2 - function
+ * puts2 - print every other character starting from the 1st
  * @str: string
- * Return: 1
+ * Return: 0
  */
 
 void puts2(char *str)
