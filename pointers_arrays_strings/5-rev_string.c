@@ -4,23 +4,23 @@
  *@s: String to print in reverse
  */
 
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (*s++)
+		i++;
+	return (i);
+}
 void rev_string(char *s)
 {
-	{
-		int i = 0;
+	int i, len, tmp;
 
-		while (*s++)
-			i++;
-		return (i)
-	}
+	len = _strlen(s) - 1;
+	for (i = 0; i < (len / 2); i++)
 	{
-		int a, len, tmp;
-		len = i(s) - 1;
-		for (a = 0; a < (len / 2); a++)
-		{
-			tmp = s[a];
-			s[a] = s[len - a];
-			s[len - a] = tmp;
-		}
+		tmp = s[i];
+		s[i] = s[len - i];
+		s[len - i] = tmp;
 	}
 }
