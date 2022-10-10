@@ -4,21 +4,22 @@
  *@s: String to print in reverse
  */
 
-void print_rev(char *s)
-
+void rev_string(char *s)
+	int _strlen(char *s)
 {
-	int x;
+	int i = 0;
 
-	x = 0;
+	while (*s++)
+		i++;
+}
+{
+	int a, len, tmp;
 
-	while (s[x] != '\0')
+	len = i(s) - 1;
+	for (a = 0; a < (len / 2); a++)
 	{
-		x++;
+		tmp = s[a];
+		s[a] = s[len - a];
+		s[len - a] = tmp;
 	}
-	while (x != 0)
-	{
-		x--;
-		_putchar(s[x]);
-	}
-	_putchar('\n');
 }
