@@ -23,6 +23,7 @@ void rev_string(char *s)
 {
 	int i, len;
 	char tmp;
+
 	len = _strlen(s) - 1;
 	for (i = 0; i < len; i++)
 	{
