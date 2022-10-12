@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_memset fills the first n bytes of area pointed by s with constant b
+ *_memset - fills the first n bytes of area pointed by s with constant b
  *Return: s
  *@s : pointer to the memory
  *@b : constant value to pass
