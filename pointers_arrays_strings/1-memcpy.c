@@ -1,6 +1,8 @@
 #include "main.h"
 /**
  *_memcpy - copy the memory
+ *@src : source
+ *@dest : destination
  *@n : integer
  *Return: destination array
  */
