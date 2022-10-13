@@ -6,7 +6,7 @@
  *Return: unsigned int that is the number of bytes in the prefix
  */
 
-unsigned int _strpbrk(char *s, char *accept)
+unsigned int *_strpbrk(char *s, char *accept)
 {
 	unsigned int i;
 	int j;
