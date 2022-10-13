@@ -1,3 +1,11 @@
+#include "main.h"
+/**
+ *_memcpy - copy the memory
+ *@n : integer
+ *Return: destination array
+ */
+
+
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
