@@ -1,0 +1,1 @@
+this is the static lib readme exercice for holberton school
