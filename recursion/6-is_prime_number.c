@@ -24,5 +24,5 @@ int find_prime(int n, int i)
 int is_prime_number(int n)
 
 {
-	return (test_prime(n, 2));
+	return (find_prime(n, 2));
 }
