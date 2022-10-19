@@ -2,9 +2,17 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+/**
+ *main - add all the arguments together if num
+ *@argc: number of arguments
+ *@argv: number of char in the argument
+ *Return: 0 or 1 if error
+ **/
+
 int main(int argc, char *argv[])
 {
 	int i, n, result = 0;
+
 	if (argc == 1)
 	{
 		printf("0\n");
@@ -22,6 +30,6 @@ int main(int argc, char *argv[])
 		}
 		result += atoi(argv[i]);
 	}
-	printf("%d\n" , result);
+	printf("%d\n", result);
 	return (0);
 }
