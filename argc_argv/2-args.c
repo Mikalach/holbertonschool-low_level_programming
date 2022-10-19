@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- *main print all arguments received
+ *main - print all arguments received
  *@argc: number of command line
  *@argv: array containing command line
  *Return: 0 if working
