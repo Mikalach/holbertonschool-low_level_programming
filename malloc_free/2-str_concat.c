@@ -3,7 +3,8 @@
  *str_concat - function that concatenate 2 strings using malloc
  *@s1: first string
  *@s2: second string
- *Return: the pointer to the 2 strings concatenated */
+ *Return: the pointer to the 2 strings concatenated
+ */
 char *str_concat(char *s1, char *s2)
 {
 	char *z;
