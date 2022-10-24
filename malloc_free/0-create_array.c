@@ -3,7 +3,7 @@
 char *create_array(unsigned int size, char c)
 
 {
-	char *c;
+	char *z;
 	unsigned int i;
 
 	if (size == 0)
@@ -12,9 +12,9 @@ char *create_array(unsigned int size, char c)
 			  return (NULL);
 	}
 
-	c = malloc(size*sizeof(char));
+	z = malloc(size*sizeof(char));
 
-	if (c == NULL)
+	if (z == NULL)
 
 	{
 		return (NULL);
@@ -23,7 +23,7 @@ char *create_array(unsigned int size, char c)
 	for (i = 0; i < size; i++)
 
 	{
-		c[i] = c;
+		z[i] = c;
 	}
 	return (c);
 }
