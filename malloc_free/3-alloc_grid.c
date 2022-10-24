@@ -1,3 +1,5 @@
+#include <stdlib.h>
+
 /**
   *alloc_grid - fx that allocade space for a grid of given width and height
   *@width: given width as the name is explainatory enough
