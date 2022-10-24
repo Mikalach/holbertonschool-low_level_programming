@@ -1,5 +1,3 @@
-#include <stdlib.h>
-
 /**
   *alloc_grid - fx that allocade space for a grid of given width and height
   *@width: given width as the name is explainatory enough
@@ -22,6 +20,16 @@ int **alloc_grid(int width, int height)
 	for (i = 0; i < height; i++)
 	{
 		p[i] = malloc(width * sizeof(int));
+		if (p[i] == NULL)
+		{
+			while (i >= 0)
+			{
+				free(p[i]);
+				i--;
+			}
+			free(p);
+			return (NULL);
+		}
 	}
 
 	for (j = 0; j < height; j++)
