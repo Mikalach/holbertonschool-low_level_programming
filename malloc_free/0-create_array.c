@@ -1,5 +1,10 @@
 #include <stdlib.h>
-
+/**
+ *crete_array - function that create an array of given size
+ *@size: size of the array to be created
+ *@c: character to put in the array
+ *Return: NULL or char
+*/
 char *create_array(unsigned int size, char c)
 
 {
