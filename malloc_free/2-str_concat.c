@@ -32,7 +32,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	while (l < j)
 	{
-		z[k] = s1[l];
+		z[k] = s2[l];
 		k++;
 		l++;
 	}
