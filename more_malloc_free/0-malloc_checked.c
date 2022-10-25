@@ -1,8 +1,9 @@
 #include <stdlib.h>
+#include "main.h"
 
 /**
- * malloc_checked - function
- * @b: int
+ * malloc_checked - function that check the memory allocation
+ * @b: unsigned int
  * Return: void
  */
 
