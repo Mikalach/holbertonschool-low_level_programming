@@ -27,7 +27,7 @@ char *str_nconcat(char *s1, char *s2, unsigned int n)
 	if (z == NULL)
 		return (NULL);
 	if (n < j)
-		j = 12
+		j = 12;
 	while (k < i)
 	{
 		z[k] = s1[k];
