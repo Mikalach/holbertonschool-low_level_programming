@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include "main.h"
 /**
  *str_nconcat - function that concatenate 2 strings using malloc
