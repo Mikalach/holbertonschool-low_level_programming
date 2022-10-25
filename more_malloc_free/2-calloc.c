@@ -3,8 +3,8 @@
 
 /**
  * _calloc - fonction that allocate nmemb elements of size bytes
- * @nmemb: n
- * @size: size
+ * @nmemb: number of elements in the
+ * @size: amount of bytes
  * Return: void
  */
 
