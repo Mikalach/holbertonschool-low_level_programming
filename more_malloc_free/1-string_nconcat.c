@@ -7,7 +7,7 @@
  *@n the number of byte to copy from s2 in new string
  *Return: the pointer to the 2 strings concatenated
  */
-char *str_nconcat(char *s1, char *s2, unsigned int n)
+char *string_nconcat(char *s1, char *s2, unsigned int n)
 {
 	char *z;
 	unsigned int i = 0, j = 0, k = 0, l = 0;
