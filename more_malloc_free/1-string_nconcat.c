@@ -32,7 +32,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		z[k] = s1[k];
 		k++;
 	}
-	while (l =< j)
+	while (l <= j)
 	{
 		z[k] = s2[l];
 		k++, l++;
