@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- *str_nconcat - function that concatenate 2 strings using malloc
+ *string_nconcat - function that concatenate 2 strings using malloc
  *@s1: first string
  *@s2: second string
- *@n the number of byte to copy from s2 in new string
+ *@n: the number of byte to copy from s2 in new string
  *Return: the pointer to the 2 strings concatenated
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
