@@ -2,6 +2,7 @@
 #define HEADER_H
 /**
  * struct dog - create dog stucture with informations
+ * init dog - blablablablablalbalblabalbalblaalba
  * @name: dog name
  * @age: dog age
  * @owner: Third member
