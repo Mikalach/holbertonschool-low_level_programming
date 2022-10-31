@@ -1,7 +1,6 @@
 #include "dog.h"
 
 /**
- * struct dog - create dog stucture with informations
  * init_dog - set the dog structure with informations
  * @name: dog's name
  * @age: dog's age
