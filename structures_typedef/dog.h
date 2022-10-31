@@ -1,5 +1,6 @@
 #ifndef HEADER_H
 #define HEADER_H
+
 /**
  * struct dog - create dog stucture with informations
  * init_dog - blablablablablalbalblabalbalblaalba
