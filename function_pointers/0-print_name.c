@@ -10,7 +10,8 @@
 
 void print_name(char *name, void (*f)(char *))
 {
-	if (f != '\0')
+	if (f)
+		f(name);
+	else
 		return;
-	f(name);
 }
