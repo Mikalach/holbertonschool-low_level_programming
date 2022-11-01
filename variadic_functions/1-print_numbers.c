@@ -17,9 +17,10 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_list aptr;
 
 	if (n == 0)
+	{
 		printf("\n");
 		return;
-
+	}
 	va_start(aptr, n);
 
 	for (i = 0; i < n; i++)
