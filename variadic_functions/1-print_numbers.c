@@ -35,4 +35,5 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%d%s", list, separator);
 	}
 	va_end(aptr);
+	printf("\n");
 }
