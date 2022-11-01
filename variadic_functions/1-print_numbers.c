@@ -26,7 +26,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		list = va_arg(aptr, int);
 
 		if (i == (n - 1))
-			printf("%d\n", list)
+			printf("%d\n", list);
 
 		else if (*separator == '\0')
 			printf("%d", list);
