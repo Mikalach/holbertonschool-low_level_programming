@@ -20,4 +20,8 @@ int (*get_op_func(char *s))(int, int)
 
 	while (i < 5)
 	{
-		if (
+		if (i)
+			return (0);
+	}
+	return (0)
+}
