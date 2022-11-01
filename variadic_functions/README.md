@@ -1,0 +1,1 @@
+This is the readme about variadic functions in C for holberton school project
