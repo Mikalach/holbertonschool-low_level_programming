@@ -25,12 +25,14 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	{
 		list = va_arg(aptr, int);
 
-		if (*separator == '\0' || i == (n - 1))
-		{
-			printf("%d\n", list);
-		}
+		if (i == (n - 1))
+			printf("%d\n", list)
+
+		else if (*separator == '\0')
+			printf("%d", list);
+
 		else
-			printf("%d%s\n", list, separator);
+			printf("%d%s", list, separator);
 	}
 	va_end(aptr);
 }
