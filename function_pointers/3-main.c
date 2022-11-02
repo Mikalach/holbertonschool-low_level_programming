@@ -3,7 +3,10 @@
 #include "3-calc.h"
 
 /**
- *
+ *main - arg check and reading
+ *@argc: count the arg
+ *@argv: value of the arg
+ *Return: return 0 or exit with error number
  */
 
 int main(int argc, char **argv)
