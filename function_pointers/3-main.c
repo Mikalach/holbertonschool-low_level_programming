@@ -21,7 +21,7 @@ int main(int argc, char **argv)
 	{
 		printf("Error\n");
 		exit(99);
-
+	}
 	if ((argv[2][0] == '/' || argv[2][0] == '%') && atoi(argv[3]))
 	{
 		printf("Error\n");
@@ -32,3 +32,4 @@ int main(int argc, char **argv)
 
 	printf("%d\n", oper);
 	return (0);
+}
