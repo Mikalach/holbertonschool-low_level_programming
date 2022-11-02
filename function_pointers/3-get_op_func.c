@@ -4,6 +4,8 @@
 
 /**
  *get_op_func - user select the operator and it autopicks the good function
+ *@s: operator
+ *Return: result
  */
 
 int (*get_op_func(char *s))(int, int)
