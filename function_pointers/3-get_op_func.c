@@ -1,5 +1,6 @@
 #include "3-calc.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  *get_op_func - user select the operator and it autopicks the good function
