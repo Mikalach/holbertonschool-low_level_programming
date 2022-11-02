@@ -8,7 +8,7 @@
  *Return: nothing
  */
 
-void print_char(va_list c)
+void print_char(va_list vaptr)
 {
 	printf("%c", va_arg(c, int));
 }
@@ -19,7 +19,7 @@ void print_char(va_list c)
  *Return: nothing
  */
 
-void print_int(va_list i)
+void print_int(va_list vaptr)
 {
 	printf("%d", va_arg(i, int));
 }
@@ -29,7 +29,7 @@ void print_int(va_list i)
  *@f: float to print
  *Return: nothing
  */
-void print_float(va_list f)
+void print_float(va_list vaptr)
 {
 	printf("%f", va_arg(f, double));
 }
@@ -40,9 +40,9 @@ void print_float(va_list f)
  *Return: nothing
  */
 
-void print_str(va_list  s)
+void print_str(va_list  vaptr)
 {
-	char *s = va_arg(ap, char *);
+	char *s = va_arg(vaptr, char *);
 
 	if (!s)
 	{
@@ -83,9 +83,9 @@ void print_all(const char * const format, ...)
 				if (format[i + 1] != '\0')
 					printf(", ");
 			}
-			i++;
+			j++;
 		}
-		j++;
+		i++;
 	}
 	printf("\n");
 	va_end(list);
