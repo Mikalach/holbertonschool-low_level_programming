@@ -10,7 +10,7 @@
 
 void print_char(va_list vaptr)
 {
-	printf("%c", va_arg(vaptr, char));
+	printf("%c", va_arg(vaptr, int));
 }
 
 /**
@@ -31,7 +31,7 @@ void print_int(va_list vaptr)
  */
 void print_float(va_list vaptr)
 {
-	printf("%f", va_arg(vaptr, float));
+	printf("%f", va_arg(vaptr, double));
 }
 
 /**
@@ -67,7 +67,7 @@ void print_all(const char * const format, ...)
 		{'s', print_str},
 		{'\0', NULL}
 	};
-	va_list list;
+	va_list vaptr;
 	int i = 0;
 	int j = 0;
 
@@ -78,8 +78,7 @@ void print_all(const char * const format, ...)
 		{
 			if (format[i] == types[j].ch)
 			{
-				fc = types[j].func;
-				fc(list);
+				types[j].func(vaptr);
 				if (format[i + 1] != '\0')
 					printf(", ");
 			}
@@ -88,5 +87,5 @@ void print_all(const char * const format, ...)
 		i++;
 	}
 	printf("\n");
-	va_end(list);
+	va_end(vaptr);
 }
