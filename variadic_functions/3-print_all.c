@@ -44,11 +44,12 @@ void print_str(va_list  vaptr)
 {
 	char *s = va_arg(vaptr, char *);
 
-	if (!s)
-	{
-		printf("(nil)");
-		return;
-	}
+	/**	if (!s)
+	 *{
+	 *	printf("(nil)");
+	 *	return;
+	 *}
+	 */
 	printf("%s", s);
 }
 
