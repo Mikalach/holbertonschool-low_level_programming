@@ -4,7 +4,7 @@
 
 /**
  *print_char - print a characters
- *@c: character to print
+ *@vaptr: character to print
  *Return: nothing
  */
 
@@ -15,7 +15,7 @@ void print_char(va_list vaptr)
 
 /**
  *print_int - print a integer
- *@i: int to print
+ *@vaptr: int to print
  *Return: nothing
  */
 
@@ -26,7 +26,7 @@ void print_int(va_list vaptr)
 
 /**
  *print_float - print a float number
- *@f: float to print
+ *@vaptr: float to print
  *Return: nothing
  */
 void print_float(va_list vaptr)
@@ -36,7 +36,7 @@ void print_float(va_list vaptr)
 
 /**
  *print_str - print a string
- *@s: character to print
+ *@vaptr: character to print
  *Return: nothing
  */
 
