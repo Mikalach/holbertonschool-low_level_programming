@@ -43,6 +43,7 @@ void print_float(va_list vaptr)
 void print_str(va_list  vaptr)
 {
 	char *s = va_arg(vaptr, char *);
+
 	printf("%s", s);
 }
 
