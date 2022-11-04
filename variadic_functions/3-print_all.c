@@ -80,6 +80,7 @@ void print_all(const char * const format, ...)
 			j++;
 		}
 		i++;
+		j = 0;
 	}
 	printf("\n");
 	va_end(vaptr);
