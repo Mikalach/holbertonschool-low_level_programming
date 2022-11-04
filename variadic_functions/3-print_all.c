@@ -44,7 +44,7 @@ void print_str(va_list  vaptr)
 {
 	char *s = va_arg(vaptr, char *);
 
-	s == NULL ? printf("%p", s) : printf("%s", s);
+	printf("%s", s);
 }
 
 /**
