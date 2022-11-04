@@ -44,7 +44,7 @@ void print_str(va_list  vaptr)
 {
 	char *s = va_arg(vaptr, char *);
 
-	printf("%s", s);
+	printf("%p", s);
 }
 
 /**
