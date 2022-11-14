@@ -4,8 +4,8 @@
 
 /**
  *list_len - function to determine the number of element
- *@Return: the number of elements
  *@h: pointer to the nodes
+ *@Return: the number of elements
  */
 
 
