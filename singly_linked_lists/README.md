@@ -1,0 +1,1 @@
+This is the readme about singly linked lists in holberton school
