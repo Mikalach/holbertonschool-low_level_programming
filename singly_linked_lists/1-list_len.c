@@ -3,7 +3,7 @@
 #include "lists.h"
 
 /**
- *list_len - function that return the number of element
+ *list_len - function to determine the number of element
  *@Return: the number of elements
  *@h: pointer to the nodes
  */
