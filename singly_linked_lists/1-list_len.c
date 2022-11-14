@@ -5,7 +5,7 @@
 /**
  *list_len - function to determine the number of element
  *@h: pointer to the nodes
- *@Return: the number of elements
+ *Return: the number of elements
  */
 
 
