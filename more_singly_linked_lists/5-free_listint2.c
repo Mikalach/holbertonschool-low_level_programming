@@ -1,12 +1,12 @@
 #include "lists.h"
 
 /**
- * free_list - function that free the list created before
+ * free_list2 - function that free the list created before
  * @head: pointer to address of a list
  * Return: void
  */
 
-void free_listint(listint_t *head)
+void free_listint2(listint_t **head)
 {
 	list_t *clean;
 
