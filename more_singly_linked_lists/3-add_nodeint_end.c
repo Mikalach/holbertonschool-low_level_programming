@@ -5,7 +5,7 @@
  * @str: pointer to a string
  * Return: address
  */
-list_t *add_nodeint_end(listint_t **head, const int n)
+lisitint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *sec;
 	listint_t *fir = *head;
