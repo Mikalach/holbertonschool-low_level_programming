@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
-
+ *binary_to_uint - function taht prints the binary representation of the number
+ *@b: pointer to a string of character that should be 1 or 0
+ *Return: an int that is the representation of the binary from the string
  */
 
 unsigned int binary_to_uint(const char *b)
 {
 	int len = 0, i;
 	unsigned int sum = 0;
-	if (b == NULL)
+	if (!b)
 		return (sum);
 	while (b[len] != '\0')
 		len++;
