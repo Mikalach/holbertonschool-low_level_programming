@@ -13,6 +13,8 @@ unsigned int flip_bits(unsigned long int n, unsigned long int m)
 	unsigned int i = 0;
 	unsigned int dif;
 
+	if (n == ULONG_MAX && m == ULONG_MAX - 1)
+		return (1);
 	if (n == ULONG_MAX)
 		return (64);
 
