@@ -10,7 +10,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 	dlistint_t *sec;
 	dlistint_t *fir = *head;
 
-	sec = malloc(sizeof(listint_t));
+	sec = malloc(sizeof(dlistint_t));
 	if (!sec)
 		return (NULL);
 	sec->n = n;
