@@ -5,7 +5,7 @@
  * @n: the int inside the node
  * Return: address
  */
-listint_t *add_dnodeint_end(dlistint_t **head, const int n)
+dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *sec;
 	dlistint_t *fir = *head;
