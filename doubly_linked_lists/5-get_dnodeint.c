@@ -6,7 +6,7 @@
  * @index: index of the node
  * Return: nth node of a linked list or NULL if node doesnt exist
  */
-listint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	unsigned int i = 0;
 
