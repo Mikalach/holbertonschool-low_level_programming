@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int fd1, fd2, n;
+	int fd1, fd2, len;
 	char buff[1024];
 
 	if (argc != 3)
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	while ((n = read(fd1, buff, 1024)) > 0)
 		if ((write(fd2, buff, n)) != n || fd2 < 0)
 			dprintf(2, "Error: Can't write to %s\n", argv[2]);
-				exit(99);
+				exit(0);
 	if (n < 0)
 	{
 		dprintf(2, "Error: Can't read from file %s\n", argv[1]);
