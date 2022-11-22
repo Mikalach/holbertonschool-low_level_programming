@@ -1,0 +1,1 @@
+This is the readme about the project hashtable in holberton school
