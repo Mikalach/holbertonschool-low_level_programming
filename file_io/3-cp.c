@@ -29,8 +29,6 @@ int main(int argc, char *argv[])
 			exit(99);
 
 		}
-		else
-			return (0);
 	}
 	if (n < 0)
 	{
