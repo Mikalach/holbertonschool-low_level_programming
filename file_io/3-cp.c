@@ -1,5 +1,4 @@
 #include "main.h"
-#define STDERR_FILENO 2
 /**
  * main - function that copy the content of a file to another
  * @argc: argc
