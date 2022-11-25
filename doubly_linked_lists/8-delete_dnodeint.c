@@ -6,33 +6,41 @@
  *@index: index of the list where node should be deleted
  *Return: 1 on success or 1 if no success
  */
-int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
-{
-	unsigned int i = 0;
-	dlistint_t *stock = *head;
-	dlistint_t *use;
 
-	if (!stock)
+int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
+
+{
+	dlistint_t *tmp, *pre, *nex, *used;
+	unsigned int i;
+
+	tmp = *head;
+	if (!tmp)
 		return (-1);
-	while (*head && index)
-	{
-		if (!stock)
-			return (-1);
-		if (i == index - 1)
-			break;
-		stock = stock->next;
-		++i;
-	}
-	if (index)
-	{
-		use = stock->next->next;
-		free(stock->next);
-		stock->next = use;
-	}
-	else
+	if (index == 0)
 	{
 		*head = (*head)->next;
-		free(stock);
+		(*head)->prev = NULL;
+		free(tmp);
+		return (1);
 	}
+	for (i = 0; i < index; i++)
+	{
+		tmp = tmp->next;
+		if (!tmp)
+			return (-1);
+	}
+	if (!tmp->next)
+	{
+		used = tmp;
+		used = tmp->prev;
+		used->next = NULL;
+		free(tmp);
+		return (1);
+	}
+	pre = tmp->prev;
+	nex = tmp->next;
+	pre->next = nex;
+	nex->prev = pre;
+	free(tmp);
 	return (1);
 }
