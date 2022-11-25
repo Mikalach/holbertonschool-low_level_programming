@@ -25,12 +25,11 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **head,
 	new->n = n;
 	new->next = NULL;
 	new->prev = NULL;
-	stock = *h
+	stock = *head
 
 	if (idx == 0)
 	{
-		new->next = *head;
-		*head = new;
+		new = add_dnodeint(head, n)
 		return (new);
 	}
 	for (i = 0; stock && i < idx; i++)
