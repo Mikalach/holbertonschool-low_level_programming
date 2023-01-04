@@ -1,0 +1,1 @@
+this is the readme file for the search algorithms project in holberton school
